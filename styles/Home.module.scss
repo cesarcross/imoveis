@@ -1,0 +1,43 @@
+// Hex: 333D51 / D3AC2B / CBD0D8 / F4F3EA
+
+.realEstateContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  font-family: Helvetica, sans-serif;
+
+  padding: 15px 5px;
+  // background: #abdff1;
+  // background: #7f056e;
+  // background: #ed7458;
+  background: #0c4a60;
+}
+
+.card {
+  border-radius: 5px;
+  width: 150px;
+  margin-bottom: 10px;
+  background: #f4f3ea;
+  color: #0c4a60;
+}
+
+.info {
+  padding: 5px;
+
+  text-align: center;
+
+  h4,
+  p {
+    margin: 1px 0;
+  }
+
+  p {
+    font-size: 0.9rem;
+  }
+
+  p:last-of-type {
+    margin-top: 10px;
+    // background: cornflowerblue;
+    padding: 3px;
+  }
+}
