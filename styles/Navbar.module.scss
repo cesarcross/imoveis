@@ -4,4 +4,8 @@
   // background: #c09247;
   // color: #fff;
   color: #0c4a60;
+
+  @media screen and (min-width: 768px) {
+    font-size: 1.5rem;
+  }
 }

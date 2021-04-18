@@ -5,8 +5,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import Contato from '../components/Contato';
 
-// import aguas from '../src/assets/images/aguas.jpeg';
-
 export default function Home() {
   return (
     <div>
@@ -17,57 +15,58 @@ export default function Home() {
 
       <main>
         {/* <Navbar /> */}
-
-        <div className={styles.realEstateContainer}>
-          <div className={styles.card}>
-            <Link href='/aguasdelindoia'>
-              <a>
-                <Image
-                  src='/aguas.jpeg'
-                  alt='Apartamento em Águas de Lindóia'
-                  width={200}
-                  height={150}
-                />
-                <div className={styles.info}>
-                  <h4>Apartamento </h4>
-                  <p>Águas de Lindóia/SP</p>
-                  <p>80m2</p>
-                  {/* <p>R$ 360.000</p> */}
-                  <p>Saiba mais...</p>
-                </div>
-              </a>
-            </Link>
-          </div>
-          <div className={styles.card}>
-            <Image
-              src='/limao.jpeg'
-              alt='Apartamento em Águas de Lindóia'
-              width={200}
-              height={150}
-            />
-            <div className={styles.info}>
-              <h4>Casa Residencial</h4>
-              <p>Zona Norte/SP</p>
-              <p>80m2</p>
-
-              {/* <p>R$ 540.000</p> */}
-              <p>Saiba mais...</p>
+        <div className='container'>
+          <div className={styles.realEstateContainer}>
+            <div className={styles.card}>
+              <Link href='/aguasdelindoia'>
+                <a>
+                  <Image
+                    src='/aguas.jpeg'
+                    alt='Apartamento em Águas de Lindóia'
+                    width={200}
+                    height={150}
+                  />
+                  <div className={styles.info}>
+                    <h4>Apartamento </h4>
+                    <p>Águas de Lindóia/SP</p>
+                    <p>80m2</p>
+                    {/* <p>R$ 360.000</p> */}
+                    <p>Saiba mais...</p>
+                  </div>
+                </a>
+              </Link>
             </div>
-          </div>
-          <div className={styles.card}>
-            <Image
-              src='/firma.jpeg'
-              alt='Apartamento em Águas de Lindóia'
-              width={200}
-              height={150}
-            />
-            <div className={styles.info}>
-              <h4>Prédio Comercial </h4>
-              <p>Zona Norte/SP</p>
-              <p>80m2</p>
+            <div className={styles.card}>
+              <Image
+                src='/limao.jpeg'
+                alt='Apartamento em Águas de Lindóia'
+                width={200}
+                height={150}
+              />
+              <div className={styles.info}>
+                <h4>Casa Residencial</h4>
+                <p>Zona Norte/SP</p>
+                <p>80m2</p>
 
-              {/* <p>R$ 540.000</p> */}
-              <p>Saiba mais...</p>
+                {/* <p>R$ 540.000</p> */}
+                <p>Saiba mais...</p>
+              </div>
+            </div>
+            <div className={styles.card}>
+              <Image
+                src='/firma.jpeg'
+                alt='Apartamento em Águas de Lindóia'
+                width={200}
+                height={150}
+              />
+              <div className={styles.info}>
+                <h4>Prédio Comercial </h4>
+                <p>Zona Norte/SP</p>
+                <p>80m2</p>
+
+                {/* <p>R$ 540.000</p> */}
+                <p>Saiba mais...</p>
+              </div>
             </div>
           </div>
         </div>
