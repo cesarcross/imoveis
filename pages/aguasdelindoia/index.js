@@ -1,3 +1,4 @@
+import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { IconContext } from 'react-icons';
 import {
@@ -15,6 +16,19 @@ import { MdPets } from 'react-icons/md';
 import styles from '../../styles/Imovel.module.scss';
 
 const Aguas = () => {
+  let picture = (
+    <Image
+      src='/aguas.jpeg'
+      alt='Apartamento em Águas de Lindóia'
+      width={600}
+      height={400}
+      // layout={'fill'}
+      // objectFit={'contain'}
+    />
+  );
+
+  const [mainPicture, setMainPicture] = useState(picture);
+
   return (
     <div className={styles.container}>
       <div className={styles.title}>
@@ -32,6 +46,7 @@ const Aguas = () => {
           title='Apartamento em Águas de Lindóia'
         />
       </div>
+      <div className={styles.mainPicture}>{mainPicture}</div>
       <div className={styles.galeriaMobile}>
         <div className={styles.imageSize}>
           <Image
@@ -41,6 +56,17 @@ const Aguas = () => {
             height={200}
             // layout={'fill'}
             // objectFit={'contain'}
+            onClick={() => {
+              console.log('imagem alterada');
+              setMainPicture(
+                <Image
+                  src='/aguas.jpeg'
+                  alt='Apartamento em Águas de Lindóia'
+                  width={600}
+                  height={400}
+                />
+              );
+            }}
           />
         </div>
         <div className={styles.imageSize}>
@@ -51,6 +77,17 @@ const Aguas = () => {
             height={200}
             // layout={'fill'}
             // objectFit={'contain'}
+            onClick={() => {
+              console.log('imagem alterada');
+              setMainPicture(
+                <Image
+                  src='/aguas1.jpeg'
+                  alt='Apartamento em Águas de Lindóia'
+                  width={600}
+                  height={400}
+                />
+              );
+            }}
           />
         </div>
         <div className={styles.imageSize}>
