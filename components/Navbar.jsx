@@ -9,8 +9,14 @@ const Navbar = () => {
           <h3>Home</h3>
         </a>
       </Link>
-      <h3>Imoveis</h3>
-      <h3>Contato</h3>
+      <Link href='/'>
+        <a>
+          <h3>Imoveis</h3>
+        </a>
+      </Link>
+      <a href='#contato'>
+        <h3>Contato</h3>
+      </a>
     </div>
   );
 };

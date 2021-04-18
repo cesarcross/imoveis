@@ -4,7 +4,6 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import styles from '../styles/Contato.module.scss';
 import Image from 'next/image';
-// import whats from '../../assets/images/whats.png';
 
 const messageSent = () =>
   toast(`Thanks for your message! I'll answer soon`, {
