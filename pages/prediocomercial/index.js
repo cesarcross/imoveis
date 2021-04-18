@@ -17,7 +17,7 @@ import styles from '../../styles/Imovel.module.scss';
 const Aguas = () => {
   let picture = (
     <Image
-      src='/aguas.jpeg'
+      src='/firma.jpeg'
       alt='Apartamento em Águas de Lindóia'
       width={710}
       height={500}
@@ -31,27 +31,16 @@ const Aguas = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        <h3>Excelente apartamento </h3>
-        <p>Bairro Jardim Maciel</p>
-        <p>Águas de Lindóia </p>
+        <h3>Prédio Comercial</h3>
+        <p>Bairro do Limão</p>
+        <p>Zona Norte / SP</p>
       </div>
 
-      <div className={styles.video}>
-        <iframe
-          title='Apartamento em Águas de Lindóia'
-          src='https://www.youtube.com/embed/otwOx7l45Gk'
-          frameBorder='0'
-          // width='100%'
-          // height='100%'
-          allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
-          allowFullScreen
-        />
-      </div>
       <div className={styles.mainPicture}>{mainPicture}</div>
       <div className={styles.galeriaMobile}>
         <div className={styles.imageSize}>
           <Image
-            src='/aguas.jpeg'
+            src='/firma.jpeg'
             alt='Apartamento em Águas de Lindóia'
             width={300}
             height={200}
@@ -61,7 +50,7 @@ const Aguas = () => {
               console.log('imagem alterada');
               setMainPicture(
                 <Image
-                  src='/aguas.jpeg'
+                  src='/firma.jpeg'
                   alt='Apartamento em Águas de Lindóia'
                   width={710}
                   height={500}
@@ -72,7 +61,7 @@ const Aguas = () => {
         </div>
         <div className={styles.imageSize}>
           <Image
-            src='/aguas1.jpeg'
+            src='/firma1.jpeg'
             alt='Apartamento em Águas de Lindóia'
             width={300}
             height={200}
@@ -82,7 +71,7 @@ const Aguas = () => {
               console.log('imagem alterada');
               setMainPicture(
                 <Image
-                  src='/aguas1.jpeg'
+                  src='/firma1.jpeg'
                   alt='Apartamento em Águas de Lindóia'
                   width={710}
                   height={500}
@@ -93,7 +82,7 @@ const Aguas = () => {
         </div>
         <div className={styles.imageSize}>
           <Image
-            src='/aguas2.jpeg'
+            src='/firma2.jpeg'
             alt='Apartamento em Águas de Lindóia'
             width={300}
             height={200}
@@ -103,7 +92,7 @@ const Aguas = () => {
               console.log('imagem alterada');
               setMainPicture(
                 <Image
-                  src='/aguas2.jpeg'
+                  src='/firma2.jpeg'
                   alt='Apartamento em Águas de Lindóia'
                   width={710}
                   height={500}
@@ -114,7 +103,7 @@ const Aguas = () => {
         </div>
         <div className={styles.imageSize}>
           <Image
-            src='/aguas3.jpeg'
+            src='/firma3.jpeg'
             alt='Apartamento em Águas de Lindóia'
             width={300}
             height={200}
@@ -124,7 +113,7 @@ const Aguas = () => {
               console.log('imagem alterada');
               setMainPicture(
                 <Image
-                  src='/aguas3.jpeg'
+                  src='/firma3.jpeg'
                   alt='Apartamento em Águas de Lindóia'
                   width={710}
                   height={500}
@@ -135,7 +124,7 @@ const Aguas = () => {
         </div>
         <div className={styles.imageSize}>
           <Image
-            src='/aguas4.jpeg'
+            src='/firma4.jpeg'
             alt='Apartamento em Águas de Lindóia'
             width={300}
             height={200}
@@ -145,7 +134,7 @@ const Aguas = () => {
               console.log('imagem alterada');
               setMainPicture(
                 <Image
-                  src='/aguas4.jpeg'
+                  src='/firma4.jpeg'
                   alt='Apartamento em Águas de Lindóia'
                   width={710}
                   height={500}
@@ -156,7 +145,7 @@ const Aguas = () => {
         </div>
         <div className={styles.imageSize}>
           <Image
-            src='/aguas5.jpeg'
+            src='/firma5.jpeg'
             alt='Apartamento em Águas de Lindóia'
             width={300}
             height={200}
@@ -166,7 +155,7 @@ const Aguas = () => {
               console.log('imagem alterada');
               setMainPicture(
                 <Image
-                  src='/aguas5.jpeg'
+                  src='/firma5.jpeg'
                   alt='Apartamento em Águas de Lindóia'
                   width={710}
                   height={500}
@@ -177,7 +166,7 @@ const Aguas = () => {
         </div>
         <div className={styles.imageSize}>
           <Image
-            src='/aguas6.jpeg'
+            src='/firma6.jpeg'
             alt='Apartamento em Águas de Lindóia'
             width={300}
             height={200}
@@ -187,7 +176,7 @@ const Aguas = () => {
               console.log('imagem alterada');
               setMainPicture(
                 <Image
-                  src='/aguas6.jpeg'
+                  src='/firma6.jpeg'
                   alt='Apartamento em Águas de Lindóia'
                   width={710}
                   height={500}
@@ -198,7 +187,7 @@ const Aguas = () => {
         </div>
         <div className={styles.imageSize}>
           <Image
-            src='/aguas7.jpeg'
+            src='/firma7.jpeg'
             alt='Apartamento em Águas de Lindóia'
             width={300}
             height={200}
@@ -208,7 +197,7 @@ const Aguas = () => {
               console.log('imagem alterada');
               setMainPicture(
                 <Image
-                  src='/aguas7.jpeg'
+                  src='/firma7.jpeg'
                   alt='Apartamento em Águas de Lindóia'
                   width={710}
                   height={500}
@@ -268,7 +257,7 @@ const Aguas = () => {
         </IconContext.Provider>
       </div>
       <div className={styles.price}>
-        <p>R$ 360.000</p>
+        <p>R$ 2.200.000</p>
       </div>
     </div>
   );

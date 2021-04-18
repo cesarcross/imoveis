@@ -37,36 +37,44 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.card}>
-              <Image
-                src='/limao.jpeg'
-                alt='Apartamento em Águas de Lindóia'
-                width={200}
-                height={150}
-              />
-              <div className={styles.info}>
-                <h4>Casa Residencial</h4>
-                <p>Zona Norte/SP</p>
-                <p>80m2</p>
+              <Link href='/limao'>
+                <a>
+                  <Image
+                    src='/limao.jpeg'
+                    alt='Apartamento em Águas de Lindóia'
+                    width={200}
+                    height={150}
+                  />
+                  <div className={styles.info}>
+                    <h4>Casa Residencial</h4>
+                    <p>Zona Norte/SP</p>
+                    <p>80m2</p>
 
-                {/* <p>R$ 540.000</p> */}
-                <p>Saiba mais...</p>
-              </div>
+                    {/* <p>R$ 540.000</p> */}
+                    <p>Saiba mais...</p>
+                  </div>
+                </a>
+              </Link>
             </div>
             <div className={styles.card}>
-              <Image
-                src='/firma.jpeg'
-                alt='Apartamento em Águas de Lindóia'
-                width={200}
-                height={150}
-              />
-              <div className={styles.info}>
-                <h4>Prédio Comercial </h4>
-                <p>Zona Norte/SP</p>
-                <p>80m2</p>
+              <Link href='/prediocomercial'>
+                <a>
+                  <Image
+                    src='/firma.jpeg'
+                    alt='Apartamento em Águas de Lindóia'
+                    width={200}
+                    height={150}
+                  />
+                  <div className={styles.info}>
+                    <h4>Prédio Comercial </h4>
+                    <p>Zona Norte/SP</p>
+                    <p>80m2</p>
 
-                {/* <p>R$ 540.000</p> */}
-                <p>Saiba mais...</p>
-              </div>
+                    {/* <p>R$ 540.000</p> */}
+                    <p>Saiba mais...</p>
+                  </div>
+                </a>
+              </Link>
             </div>
           </div>
         </div>
