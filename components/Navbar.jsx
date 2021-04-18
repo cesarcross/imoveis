@@ -14,9 +14,9 @@ const Navbar = () => {
           <h3>Imoveis</h3>
         </a>
       </Link>
-      <a href='#contato'>
+      <Link href='#contact'>
         <h3>Contato</h3>
-      </a>
+      </Link>
     </div>
   );
 };
