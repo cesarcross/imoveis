@@ -29,7 +29,7 @@ export default function Home() {
                   <div className={styles.info}>
                     <h4>Apartamento </h4>
                     <p>Águas de Lindóia/SP</p>
-                    <p>80m2</p>
+                    <p>80m²</p>
                     {/* <p>R$ 360.000</p> */}
                     <p>Saiba mais...</p>
                   </div>
@@ -41,14 +41,14 @@ export default function Home() {
                 <a>
                   <Image
                     src='/limao.jpeg'
-                    alt='Apartamento em Águas de Lindóia'
+                    alt='Casa bairro do Limão'
                     width={200}
                     height={150}
                   />
                   <div className={styles.info}>
                     <h4>Casa Residencial</h4>
                     <p>Zona Norte/SP</p>
-                    <p>80m2</p>
+                    <p>300m²</p>
 
                     {/* <p>R$ 540.000</p> */}
                     <p>Saiba mais...</p>
@@ -61,14 +61,14 @@ export default function Home() {
                 <a>
                   <Image
                     src='/firma.jpeg'
-                    alt='Apartamento em Águas de Lindóia'
+                    alt='Prédio comercial zona norte SP'
                     width={200}
                     height={150}
                   />
                   <div className={styles.info}>
                     <h4>Prédio Comercial </h4>
                     <p>Zona Norte/SP</p>
-                    <p>80m2</p>
+                    <p>500m²</p>
 
                     {/* <p>R$ 540.000</p> */}
                     <p>Saiba mais...</p>

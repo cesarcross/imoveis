@@ -10,8 +10,10 @@ import {
   FaMapMarkerAlt,
   FaCar,
   FaSwimmer,
+  FaAppleAlt,
+  FaCouch,
 } from 'react-icons/fa';
-import { MdPets } from 'react-icons/md';
+import { MdPets, MdKitchen, MdLocalLaundryService } from 'react-icons/md';
 import styles from '../../styles/Imovel.module.scss';
 
 const Aguas = () => {
@@ -31,7 +33,7 @@ const Aguas = () => {
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        <h3>Casa ampla e pomar</h3>
+        <h3>Duas casa em amplo terreno</h3>
         <p>Bairro do Limão</p>
         <p>Zona Norte / SP</p>
       </div>
@@ -212,22 +214,22 @@ const Aguas = () => {
           <ul>
             <li>
               <FaRulerHorizontal />
-              <p>139 m²</p>
+              <p>300 m²</p>
             </li>
             <li>
               <FaBed />
-              <p>3 quartos</p>
+              <p>3 Quartos</p>
             </li>
             <li>
               <FaShower />
-              <p>2 banheiros</p>
+              <p>3 Banheiros</p>
             </li>
           </ul>
 
           <ul>
             <li>
-              <FaMapMarkerAlt />
-              <p>Excelente localização</p>
+              <MdKitchen />
+              <p>2 Cozinhas</p>
             </li>
             <li>
               <MdPets />
@@ -242,16 +244,16 @@ const Aguas = () => {
 
           <ul>
             <li>
-              <FaBuilding />
-              <p>2 andar</p>
+              <MdLocalLaundryService />
+              <p>Lavanderia</p>
             </li>
             <li>
-              <FaSwimmer />
-              <p>Piscina</p>
+              <FaCouch />
+              <p>2 Salas</p>
             </li>
             <li>
-              <FaMountain />
-              <p>Vista livre</p>
+              <FaAppleAlt />
+              <p>Pomar</p>
             </li>
           </ul>
         </IconContext.Provider>

@@ -41,8 +41,8 @@ const Aguas = () => {
           title='Apartamento em Águas de Lindóia'
           src='https://www.youtube.com/embed/otwOx7l45Gk'
           frameBorder='0'
-          // width='100%'
-          // height='100%'
+          width='100%'
+          height={200}
           allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
           allowFullScreen
         />
@@ -227,11 +227,11 @@ const Aguas = () => {
             </li>
             <li>
               <FaBed />
-              <p>3 quartos</p>
+              <p>3 Quartos</p>
             </li>
             <li>
               <FaShower />
-              <p>2 banheiros</p>
+              <p>2 Banheiros</p>
             </li>
           </ul>
 
@@ -247,14 +247,14 @@ const Aguas = () => {
 
             <li>
               <FaCar />
-              <p>1 vaga</p>
+              <p>1 Vaga</p>
             </li>
           </ul>
 
           <ul>
             <li>
               <FaBuilding />
-              <p>2 andar</p>
+              <p>2 Andar</p>
             </li>
             <li>
               <FaSwimmer />

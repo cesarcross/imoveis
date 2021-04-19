@@ -2,16 +2,16 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { IconContext } from 'react-icons';
 import {
-  FaBed,
   FaShower,
   FaBuilding,
   FaRulerHorizontal,
   FaMountain,
   FaMapMarkerAlt,
   FaCar,
-  FaSwimmer,
+  FaHandshake,
 } from 'react-icons/fa';
-import { MdPets } from 'react-icons/md';
+import { MdPets, MdKitchen } from 'react-icons/md';
+import { GiOfficeChair } from 'react-icons/gi';
 import styles from '../../styles/Imovel.module.scss';
 
 const Aguas = () => {
@@ -212,47 +212,47 @@ const Aguas = () => {
           <ul>
             <li>
               <FaRulerHorizontal />
-              <p>139 m²</p>
+              <p>500 m²</p>
             </li>
             <li>
-              <FaBed />
-              <p>3 quartos</p>
+              <GiOfficeChair />
+              <p>3 Salas Comerciais</p>
             </li>
             <li>
               <FaShower />
-              <p>2 banheiros</p>
+              <p>7 Banheiros</p>
             </li>
           </ul>
 
           <ul>
             <li>
               <FaMapMarkerAlt />
-              <p>Excelente localização</p>
+              <p>Excelente Localização</p>
             </li>
             <li>
-              <MdPets />
-              <p>Aceita animais</p>
+              <MdKitchen />
+              <p>1 Cozinha</p>
             </li>
 
             <li>
               <FaCar />
-              <p>1 vaga</p>
+              <p>5 Vagas</p>
             </li>
           </ul>
 
           <ul>
             <li>
               <FaBuilding />
-              <p>2 andar</p>
+              <p>2 Andares e Subsolo</p>
             </li>
             <li>
-              <FaSwimmer />
-              <p>Piscina</p>
+              <FaHandshake />
+              <p>Com Inquilino</p>
             </li>
-            <li>
+            {/* <li>
               <FaMountain />
               <p>Vista livre</p>
-            </li>
+            </li> */}
           </ul>
         </IconContext.Provider>
       </div>

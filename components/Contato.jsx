@@ -1,12 +1,12 @@
 import { Formik, Field, Form, ErrorMessage, useFormik } from 'formik';
 import * as Yup from 'yup';
 import axios from 'axios';
-import { ToastContainer, toast } from 'react-toastify';
+import { toast } from 'react-toastify';
 import styles from '../styles/Contato.module.scss';
 import Image from 'next/image';
 
 const messageSent = () =>
-  toast(`Thanks for your message! I'll answer soon`, {
+  toast.success(`Mensagem enviada com sucesso!`, {
     position: 'bottom-center',
     autoClose: 3000,
     hideProgressBar: false,
@@ -15,7 +15,7 @@ const messageSent = () =>
   });
 
 const messageFailed = () =>
-  toast(`Please fill all the fields`, {
+  toast.error(`Por favor preencha todos os campos`, {
     position: 'bottom-center',
     autoClose: 3000,
     hideProgressBar: false,
@@ -72,8 +72,9 @@ const Contato = () => {
 
           <div className={styles.mobilewhats}>
             <a href='https://wa.me/5511981263581' target='_blank'>
+              {/* Image não deve ser children de <p>. Refatorar */}
               <p>
-                Ou escreva pelo Whatsapp
+                Ou escreva pelo Whatsapp{' '}
                 <Image src='/whats.png' width={50} height={50} />
               </p>
             </a>
