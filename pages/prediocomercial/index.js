@@ -189,8 +189,6 @@ const Aguas = () => {
             alt='Apartamento em Águas de Lindóia'
             width={300}
             height={200}
-            // layout={'fill'}
-            // objectFit={'contain'}
             onClick={() => {
               console.log('imagem alterada');
               setMainPicture(
