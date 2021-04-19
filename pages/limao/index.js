@@ -1,15 +1,11 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import { IconContext } from 'react-icons';
 import {
   FaBed,
   FaShower,
-  FaBuilding,
   FaRulerHorizontal,
-  FaMountain,
-  FaMapMarkerAlt,
   FaCar,
-  FaSwimmer,
   FaAppleAlt,
   FaCouch,
 } from 'react-icons/fa';

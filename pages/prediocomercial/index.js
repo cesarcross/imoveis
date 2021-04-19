@@ -1,17 +1,17 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Image from 'next/image';
 import { IconContext } from 'react-icons';
 import {
   FaShower,
   FaBuilding,
   FaRulerHorizontal,
-  FaMountain,
   FaMapMarkerAlt,
   FaCar,
   FaHandshake,
 } from 'react-icons/fa';
-import { MdPets, MdKitchen } from 'react-icons/md';
+import { MdKitchen } from 'react-icons/md';
 import { GiOfficeChair } from 'react-icons/gi';
+import { GrDocumentText } from 'react-icons/gr';
 import styles from '../../styles/Imovel.module.scss';
 
 const Aguas = () => {
@@ -21,8 +21,6 @@ const Aguas = () => {
       alt='Apartamento em Águas de Lindóia'
       width={710}
       height={500}
-      // layout={'fill'}
-      // objectFit={'contain'}
     />
   );
 
@@ -243,11 +241,11 @@ const Aguas = () => {
           <ul>
             <li>
               <FaBuilding />
-              <p>2 Pavimentos</p>
+              <p>3 Pavimentos </p>
             </li>
             <li>
-              <FaBuilding />
-              <p>1 Salão Térreo</p>
+              <GrDocumentText />
+              <p>Documentação Em Dia</p>
             </li>
             <li>
               <FaHandshake />
