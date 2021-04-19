@@ -231,7 +231,7 @@ const Aguas = () => {
             </li>
             <li>
               <MdKitchen />
-              <p>1 Cozinha</p>
+              <p>3 Cozinhas</p>
             </li>
 
             <li>
@@ -243,7 +243,11 @@ const Aguas = () => {
           <ul>
             <li>
               <FaBuilding />
-              <p>2 Andares e Subsolo</p>
+              <p>2 Pavimentos</p>
+            </li>
+            <li>
+              <FaBuilding />
+              <p>1 Salão Térreo</p>
             </li>
             <li>
               <FaHandshake />
