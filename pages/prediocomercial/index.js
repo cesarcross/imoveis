@@ -251,10 +251,6 @@ const Aguas = () => {
               <FaHandshake />
               <p>Com Inquilino</p>
             </li>
-            {/* <li>
-              <FaMountain />
-              <p>Vista livre</p>
-            </li> */}
           </ul>
         </IconContext.Provider>
       </div>
