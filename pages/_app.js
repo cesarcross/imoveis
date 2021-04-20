@@ -8,7 +8,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Navbar />
-      <ToastContainer />
+      <ToastContainer style={{ fontSize: '1.5rem' }} />
       <Component {...pageProps} />
       <Contato />
     </>

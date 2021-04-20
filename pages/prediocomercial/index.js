@@ -253,7 +253,7 @@ const Aguas = () => {
         </IconContext.Provider>
       </div>
       <div className={styles.price}>
-        <p>R$ 2.200.000</p>
+        <p>R$ 1.900.000</p>
       </div>
     </div>
   );
