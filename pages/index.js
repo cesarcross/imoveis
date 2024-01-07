@@ -19,63 +19,57 @@ export default function Home() {
           <div className={styles.realEstateContainer}>
             <div className={styles.card}>
               <Link href="/aguasdelindoia">
-                <a>
-                  <Image
-                    src="/aguas.jpeg"
-                    alt="Apartamento em Águas de Lindóia"
-                    width={200}
-                    height={150}
-                  />
-                  <div className={styles.info}>
-                    <h4>Apartamento </h4>
-                    <p>Águas de Lindóia/SP</p>
-                    <p>80m²</p>
-                    {/* <p>R$ 360.000</p> */}
-                    <p>Saiba mais...</p>
-                  </div>
-                </a>
+                <Image
+                  src="/aguas.jpeg"
+                  alt="Apartamento em Águas de Lindóia"
+                  width={200}
+                  height={150}
+                />
+                <div className={styles.info}>
+                  <h4>Apartamento </h4>
+                  <p>Águas de Lindóia/SP</p>
+                  <p>80m²</p>
+                  {/* <p>R$ 360.000</p> */}
+                  <p>Saiba mais...</p>
+                </div>
               </Link>
             </div>
             <div className={styles.card}>
-              <Link href="/limao">
-                <a>
-                  <Image
-                    src="/limao.jpeg"
-                    alt="Casa dos Giannoni"
-                    width={200}
-                    height={150}
-                  />
-                  <div className={styles.info}>
-                    <h4>Casa Residencial</h4>
-                    <p>Zona Norte/SP</p>
-                    <p>300m²</p>
+              <Link href="/casaaguas">
+                <Image
+                  src="/casaaguas.jpg"
+                  alt="Casa em Águas de Lindóia"
+                  width={200}
+                  height={150}
+                />
+                <div className={styles.info}>
+                  <h4>Casa Residencial</h4>
+                  <p>Zona Norte/SP</p>
+                  <p>300m²</p>
 
-                    {/* <p>R$ 540.000</p> */}
-                    <p>Saiba mais...</p>
-                  </div>
-                </a>
+                  {/* <p>R$ 540.000</p> */}
+                  <p>Saiba mais...</p>
+                </div>
               </Link>
             </div>
-            <div className={styles.card}>
+            {/* <div className={styles.card}>
               <Link href="/prediocomercial">
-                <a>
-                  <Image
-                    src="/firma.jpeg"
-                    alt="Prédio comercial zona norte SP"
-                    width={200}
-                    height={150}
-                  />
-                  <div className={styles.info}>
-                    <h4>Prédio Comercial </h4>
-                    <p>Zona Norte/SP</p>
-                    <p>500m²</p>
+                <Image
+                  src="/firma.jpeg"
+                  alt="Prédio comercial zona norte SP"
+                  width={200}
+                  height={150}
+                />
+                <div className={styles.info}>
+                  <h4>Prédio Comercial </h4>
+                  <p>Zona Norte/SP</p>
+                  <p>500m²</p>
 
-                    {/* <p>R$ 540.000</p> */}
-                    <p>Saiba mais...</p>
-                  </div>
-                </a>
-              </Link>
-            </div>
+                  {/* <p>R$ 540.000</p> */}
+            {/* <p>Saiba mais...</p> */}
+            {/* </div> */}
+            {/* </Link> */}
+            {/* </div> */}
           </div>
         </div>
       </main>
