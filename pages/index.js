@@ -1,28 +1,28 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.scss';
-import Navbar from '../components/Navbar.jsx';
-import Image from 'next/image';
-import Link from 'next/link';
-import Contato from '../components/Contato';
+import Head from "next/head";
+import styles from "../styles/Home.module.scss";
+import Navbar from "../components/Navbar.jsx";
+import Image from "next/image";
+import Link from "next/link";
+import Contato from "../components/Contato";
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Create Next App</title>
-        <link rel='icon' href='/favicon.ico' />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
         {/* <Navbar /> */}
-        <div className='container'>
+        <div className="container">
           <div className={styles.realEstateContainer}>
             <div className={styles.card}>
-              <Link href='/aguasdelindoia'>
+              <Link href="/aguasdelindoia">
                 <a>
                   <Image
-                    src='/aguas.jpeg'
-                    alt='Apartamento em Águas de Lindóia'
+                    src="/aguas.jpeg"
+                    alt="Apartamento em Águas de Lindóia"
                     width={200}
                     height={150}
                   />
@@ -37,11 +37,11 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.card}>
-              <Link href='/limao'>
+              <Link href="/limao">
                 <a>
                   <Image
-                    src='/limao.jpeg'
-                    alt='Casa bairro do Limão'
+                    src="/limao.jpeg"
+                    alt="Casa dos Giannoni"
                     width={200}
                     height={150}
                   />
@@ -57,11 +57,11 @@ export default function Home() {
               </Link>
             </div>
             <div className={styles.card}>
-              <Link href='/prediocomercial'>
+              <Link href="/prediocomercial">
                 <a>
                   <Image
-                    src='/firma.jpeg'
-                    alt='Prédio comercial zona norte SP'
+                    src="/firma.jpeg"
+                    alt="Prédio comercial zona norte SP"
                     width={200}
                     height={150}
                   />
