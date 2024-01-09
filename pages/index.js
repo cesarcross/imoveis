@@ -37,7 +37,7 @@ export default function Home() {
             <div className={styles.card}>
               <Link href="/casaaguas">
                 <Image
-                  src="/casaaguas.jpg"
+                  src="/casa.jpg"
                   alt="Casa em Águas de Lindóia"
                   width={200}
                   height={150}
