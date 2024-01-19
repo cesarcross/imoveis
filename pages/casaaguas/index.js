@@ -311,7 +311,7 @@ const CasaAguas = () => {
         </div>
       </div>
       <div className={styles.infos}>
-        <IconContext.Provider value={{ color: "0c4a60", size: "25px" }}>
+        <IconContext.Provider value={{ color: "43766C", size: "25px" }}>
           <ul>
             <li>
               <FaRulerHorizontal />

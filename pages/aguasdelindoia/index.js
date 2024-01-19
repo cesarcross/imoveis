@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
-import Image from 'next/image';
-import { IconContext } from 'react-icons';
+import { useState, useEffect } from "react";
+import Image from "next/image";
+import { IconContext } from "react-icons";
 import {
   FaBed,
   FaShower,
@@ -10,220 +10,40 @@ import {
   FaMapMarkerAlt,
   FaCar,
   FaSwimmer,
-} from 'react-icons/fa';
-import { MdPets } from 'react-icons/md';
-import styles from '../../styles/Imovel.module.scss';
+} from "react-icons/fa";
+import { MdPets, MdBalcony } from "react-icons/md";
+import { IoMdFlower } from "react-icons/io";
+import styles from "../../styles/Imovel.module.scss";
 
 const Aguas = () => {
-  let picture = (
-    <Image
-      src='/aguas.jpeg'
-      alt='Apartamento em Águas de Lindóia'
-      width={710}
-      height={500}
-      // layout={'fill'}
-      // objectFit={'contain'}
-    />
-  );
-
-  const [mainPicture, setMainPicture] = useState(picture);
-
   return (
     <div className={styles.container}>
       <div className={styles.title}>
-        <h3>Excelente apartamento </h3>
-        <p>Bairro Jardim Maciel</p>
-        <p>Águas de Lindóia </p>
+        <h3>Bem-vindo ao seu novo lar em </h3>
+        <h3>Águas de Lindóia! 🌄</h3>
       </div>
 
       <div className={styles.video}>
         <iframe
-          title='Apartamento em Águas de Lindóia'
-          src='https://www.youtube.com/embed/otwOx7l45Gk'
-          frameBorder='0'
-          width='100%'
+          title="Apartamento em Águas de Lindóia"
+          src="https://www.youtube.com/embed/JLqzCxOFnN8"
+          width="100%"
           height={200}
-          allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture'
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         />
       </div>
-      <div className={styles.mainPicture}>{mainPicture}</div>
-      <div className={styles.galeriaMobile}>
-        <div className={styles.imageSize}>
-          <Image
-            src='/aguas.jpeg'
-            alt='Apartamento em Águas de Lindóia'
-            width={300}
-            height={200}
-            // layout={'fill'}
-            // objectFit={'contain'}
-            onClick={() => {
-              console.log('imagem alterada');
-              setMainPicture(
-                <Image
-                  src='/aguas.jpeg'
-                  alt='Apartamento em Águas de Lindóia'
-                  width={710}
-                  height={500}
-                />
-              );
-            }}
-          />
-        </div>
-        <div className={styles.imageSize}>
-          <Image
-            src='/aguas1.jpeg'
-            alt='Apartamento em Águas de Lindóia'
-            width={300}
-            height={200}
-            // layout={'fill'}
-            // objectFit={'contain'}
-            onClick={() => {
-              console.log('imagem alterada');
-              setMainPicture(
-                <Image
-                  src='/aguas1.jpeg'
-                  alt='Apartamento em Águas de Lindóia'
-                  width={710}
-                  height={500}
-                />
-              );
-            }}
-          />
-        </div>
-        <div className={styles.imageSize}>
-          <Image
-            src='/aguas2.jpeg'
-            alt='Apartamento em Águas de Lindóia'
-            width={300}
-            height={200}
-            // layout={'fill'}
-            // objectFit={'contain'}
-            onClick={() => {
-              console.log('imagem alterada');
-              setMainPicture(
-                <Image
-                  src='/aguas2.jpeg'
-                  alt='Apartamento em Águas de Lindóia'
-                  width={710}
-                  height={500}
-                />
-              );
-            }}
-          />
-        </div>
-        <div className={styles.imageSize}>
-          <Image
-            src='/aguas3.jpeg'
-            alt='Apartamento em Águas de Lindóia'
-            width={300}
-            height={200}
-            // layout={'fill'}
-            // objectFit={'contain'}
-            onClick={() => {
-              console.log('imagem alterada');
-              setMainPicture(
-                <Image
-                  src='/aguas3.jpeg'
-                  alt='Apartamento em Águas de Lindóia'
-                  width={710}
-                  height={500}
-                />
-              );
-            }}
-          />
-        </div>
-        <div className={styles.imageSize}>
-          <Image
-            src='/aguas4.jpeg'
-            alt='Apartamento em Águas de Lindóia'
-            width={300}
-            height={200}
-            // layout={'fill'}
-            // objectFit={'contain'}
-            onClick={() => {
-              console.log('imagem alterada');
-              setMainPicture(
-                <Image
-                  src='/aguas4.jpeg'
-                  alt='Apartamento em Águas de Lindóia'
-                  width={710}
-                  height={500}
-                />
-              );
-            }}
-          />
-        </div>
-        <div className={styles.imageSize}>
-          <Image
-            src='/aguas5.jpeg'
-            alt='Apartamento em Águas de Lindóia'
-            width={300}
-            height={200}
-            // layout={'fill'}
-            // objectFit={'contain'}
-            onClick={() => {
-              console.log('imagem alterada');
-              setMainPicture(
-                <Image
-                  src='/aguas5.jpeg'
-                  alt='Apartamento em Águas de Lindóia'
-                  width={710}
-                  height={500}
-                />
-              );
-            }}
-          />
-        </div>
-        <div className={styles.imageSize}>
-          <Image
-            src='/aguas6.jpeg'
-            alt='Apartamento em Águas de Lindóia'
-            width={300}
-            height={200}
-            // layout={'fill'}
-            // objectFit={'contain'}
-            onClick={() => {
-              console.log('imagem alterada');
-              setMainPicture(
-                <Image
-                  src='/aguas6.jpeg'
-                  alt='Apartamento em Águas de Lindóia'
-                  width={710}
-                  height={500}
-                />
-              );
-            }}
-          />
-        </div>
-        <div className={styles.imageSize}>
-          <Image
-            src='/aguas7.jpeg'
-            alt='Apartamento em Águas de Lindóia'
-            width={300}
-            height={200}
-            // layout={'fill'}
-            // objectFit={'contain'}
-            onClick={() => {
-              console.log('imagem alterada');
-              setMainPicture(
-                <Image
-                  src='/aguas7.jpeg'
-                  alt='Apartamento em Águas de Lindóia'
-                  width={710}
-                  height={500}
-                />
-              );
-            }}
-          />
-        </div>
-      </div>
+
+      <p>🏡 **Características da Casa:**</p>
+      <p>Bairro Jardim Maciel</p>
+
       <div className={styles.infos}>
-        <IconContext.Provider value={{ color: '0c4a60', size: '25px' }}>
+        <IconContext.Provider value={{ color: "43766C", size: "25px" }}>
           <ul>
             <li>
               <FaRulerHorizontal />
-              <p>139 m²</p>
+              {/* <p>139 m²</p> */}
+              <p>280 m²</p>
             </li>
             <li>
               <FaBed />
@@ -231,7 +51,7 @@ const Aguas = () => {
             </li>
             <li>
               <FaShower />
-              <p>2 Banheiros</p>
+              <p>4 Banheiros</p>
             </li>
           </ul>
 
@@ -247,22 +67,22 @@ const Aguas = () => {
 
             <li>
               <FaCar />
-              <p>1 Vaga</p>
+              <p>5 Vagas</p>
             </li>
           </ul>
 
           <ul>
             <li>
               <FaBuilding />
-              <p>2 Andar</p>
+              <p>Escritório</p>
             </li>
             <li>
-              <FaSwimmer />
-              <p>Piscina</p>
+              <IoMdFlower />
+              <p>Quintal</p>
             </li>
             <li>
-              <FaMountain />
-              <p>Vista livre</p>
+              <MdBalcony />
+              <p>Varanda</p>
             </li>
           </ul>
         </IconContext.Provider>
