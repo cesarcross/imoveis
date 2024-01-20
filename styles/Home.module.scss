@@ -1,77 +1,12 @@
 // Hex: 333D51 / D3AC2B / CBD0D8 / F4F3EA
 
-.realEstateContainer {
+.container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: column;
   font-family: Helvetica, sans-serif;
-
-  padding: 15px 5px;
-  // background: #abdff1;
-  // background: #7f056e;
-  // background: #ed7458;
-  // background: #16a3ce;
   max-width: 1450px;
   margin: auto;
-
-  @media screen and (min-width: 768px) {
-    padding: 50px 0;
-  }
-}
-
-.card {
-  border-radius: 5px;
-  width: 150px;
-  margin-bottom: 10px;
-  background: #f4f3ea;
-  color: #43766c;
-
-  @media screen and (min-width: 414px) {
-    width: 190px;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 250px;
-
-    img {
-      width: 250px;
-    }
-  }
-
-  @media screen and (min-width: 1024px) {
-    width: 350px;
-
-    img {
-      width: 350px;
-    }
-  }
-}
-
-.info {
-  padding: 5px;
-
-  text-align: center;
-
-  h4,
-  p {
-    margin: 1px 0;
-  }
-
-  p {
-    font-size: 0.9rem;
-  }
-
-  p:last-of-type {
-    margin-top: 10px;
-    // background: cornflowerblue;
-    padding: 3px;
-  }
-
-  @media screen and (min-width: 768px) {
-    font-size: 1.5rem;
-
-    p {
-      font-size: 1.3rem;
-    }
+  @media screen and (min-width: 500px) {
+    max-width: 1000px;
   }
 }

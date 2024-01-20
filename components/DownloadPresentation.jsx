@@ -9,6 +9,7 @@ const DownloadPresentation = () => {
 
   return (
     <div className={styles.button}>
+      <p>🏡 Baixe a apresentação completa ✨</p>
       <button onClick={handleDownload}>Baixar Apresentação</button>
     </div>
   );

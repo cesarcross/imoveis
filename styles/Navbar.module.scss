@@ -1,8 +1,10 @@
 .navContainer {
+  position: fixed;
+  width: 100%;
+
   display: flex;
   justify-content: space-around;
-  // background: #c09247;
-  // color: #fff;
+  background: #f8fae5;
   color: #43766c;
 
   @media screen and (min-width: 768px) {

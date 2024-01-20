@@ -1,8 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.scss";
 import Navbar from "../components/Navbar.jsx";
-import Image from "next/image";
-import Link from "next/link";
 import Contato from "../components/Contato";
 import Aguas from "./aguasdelindoia";
 import Gallery from "../components/Gallery";
@@ -17,9 +15,9 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className="container">
+        <div>
           <Navbar />
-          <div className={styles.realEstateContainer}>
+          <div className={styles.container}>
             <Aguas />
             <DownloadPresentation />
             <Gallery />

@@ -1,18 +1,18 @@
 import styles from "../styles/Navbar.module.scss";
-import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
 
 const Navbar = () => {
   return (
     <div className={styles.navContainer}>
-      <Link href="/">
+      <ScrollLink to="home" smooth={true} duration={1000}>
         <h3>Home</h3>
-      </Link>
-      <Link href="/">
-        <h3>Imoveis</h3>
-      </Link>
-      <Link href="#contact">
+      </ScrollLink>
+      <ScrollLink to="gallery" smooth={true} duration={1000}>
+        <h3>Fotos</h3>
+      </ScrollLink>
+      <ScrollLink to="contact" smooth={true} duration={1000}>
         <h3>Contato</h3>
-      </Link>
+      </ScrollLink>
     </div>
   );
 };
