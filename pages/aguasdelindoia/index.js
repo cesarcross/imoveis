@@ -59,7 +59,7 @@ const Aguas = () => {
         <div className={styles.infosIntro}>
           <h3>🏡 **Características da Casa**</h3>
         </div>
-        <IconContext.Provider value={{ color: "43766C", size: "30px" }}>
+        <IconContext.Provider value={{ color: "43766C", size: "40px" }}>
           <ul>
             <li>
               <FaRulerHorizontal />
