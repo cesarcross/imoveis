@@ -23,8 +23,18 @@
 .content {
   display: flex;
   justify-content: center;
+  align-items: center; // <-- centraliza ícone + texto na vertical
+  margin-bottom: 15px;
 
   a {
     display: flex;
+    align-items: center; // mantém ícone do Whats centralizado
+    text-decoration: none;
+    color: inherit; // herda cor do container
+  }
+
+  p {
+    margin: 0 0 0 8px; // espaço à esquerda
   }
 }
+

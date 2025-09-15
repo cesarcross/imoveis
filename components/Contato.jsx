@@ -6,25 +6,23 @@ import styles from "../styles/Contato.module.scss";
 import Image from "next/image";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
 import { IconContext } from "react-icons";
+import DownloadPresentation from "./DownloadPresentation";
 
 const Contato = () => {
   return (
     <div className={styles.container} id="contact">
       <h3>Entre em contato e agende sua visita!</h3>
-      <div className={styles.content}>
-        <a href="https://wa.me/5511981263581" target="_blank">
-          <Image src="/whats.png" width="50" height="50" layout="fixed" />
-          <p>Clique e fale pelo Whatsapp </p>
-        </a>
-      </div>
-      <div className={styles.content}>
-        <IconContext.Provider value={{ color: "43766C", size: "40px" }}>
-          <div style={{ marginRight: "8px" }}>
-            <MdOutlineMarkEmailRead />
-          </div>
-        </IconContext.Provider>
-        <p>cesarcorregiari@gmail.com</p>
-      </div>
+      <DownloadPresentation/>
+    <div className={styles.content}>
+  <a href="https://wa.me/5511981263581" target="_blank">
+    <Image src="/whats.png" width="40" height="40" alt="Whatsapp" />
+    <p>Clique e fale pelo Whatsapp</p>
+  </a>
+</div>
+ <div className={styles.content}>
+  <MdOutlineMarkEmailRead size={40} color="#43766C" />
+  <p>cesarcorregiari@gmail.com</p>
+</div>
     </div>
   );
 };

@@ -13,6 +13,22 @@
     color: #f4f3ea;
     border: none;
     width: 300px;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.1s ease;
+
+    &:hover {
+      background: #d95e43; // cor mais escura no hover
+    }
+
+    &:active {
+      background: #c94a30; // cor ainda mais escura no clique
+      transform: scale(0.97); // dá um efeito de "pressionado"
+    }
+
+    &:focus {
+      outline: 3px solid #ffb199; // acessibilidade (opcional)
+      outline-offset: 2px;
+    }
   }
 
   p {

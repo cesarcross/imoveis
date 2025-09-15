@@ -16,7 +16,7 @@ const Aguas = () => {
     <div className={styles.container}>
       <div className={styles.title} id="home">
         <h2>Bem-vindo ao seu novo lar em </h2>
-        <h2>Águas de Lindóia! 🌄</h2>
+        <h1>Águas de Lindóia! 🌄</h1>
       </div>
 
       <div className={styles.video}>
@@ -32,32 +32,32 @@ const Aguas = () => {
 
       <div className={styles.description}>
         <p>
-          🌳 *Entorno Natural:* Desfrute da serenidade das montanhas e da
+          🌳 <strong>Entorno Natural:</strong> Desfrute da serenidade das montanhas e da
           natureza exuberante que envolve esta encantadora casa.
         </p>
         <p>
-          🛍️ *Localização Estratégica:* Situado em uma localização privilegiada,
+          🛍️ <strong>Localização Estratégica:</strong> Situado em uma localização privilegiada,
           este imóvel oferece fácil acesso às principais praças e ao centro com
           infraestrutura completa. A conveniência está à sua porta!
         </p>
         <p>
-          💎 *Estilo de Vida Excepcional:* Um dos pilares do Circuito das Águas,
+          💎 <strong>Estilo de Vida Excepcional:</strong> Um dos pilares do Circuito das Águas,
           também é conhecida por eventos variados e pela proximidade de cidades
           como Holambra, Monte Sião, Serra Negra e Jaguariúna.
         </p>
         <p>
-          📞 *Agende sua Visita:* Esta é a oportunidade de transformar sonhos em
+          📞 <strong>Agende sua Visita:</strong> Esta é a oportunidade de transformar sonhos em
           realidade. Entre em contato para agendar uma visita.
         </p>
         <p>
-          🔑 *Seu Novo Capítulo Começa Aqui:* Este não é apenas um imóvel; é a
+          🔑 <strong>Seu Novo Capítulo Começa Aqui:</strong> Este não é apenas um imóvel; é a
           materialização de um estilo de vida. Venha fazer parte dessa história.
         </p>
       </div>
 
       <div className={styles.infos}>
         <div className={styles.infosIntro}>
-          <h3>🏡 **Características da Casa**</h3>
+          <h2>🏡 Características da Casa</h2>
         </div>
         <IconContext.Provider value={{ color: "43766C", size: "40px" }}>
           <ul>
