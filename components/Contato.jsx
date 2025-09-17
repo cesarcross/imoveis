@@ -1,11 +1,6 @@
-import { Formik, Field, Form, ErrorMessage, useFormik } from "formik";
-import * as Yup from "yup";
-import axios from "axios";
-import { toast } from "react-toastify";
 import styles from "../styles/Contato.module.scss";
 import Image from "next/image";
 import { MdOutlineMarkEmailRead } from "react-icons/md";
-import { IconContext } from "react-icons";
 import DownloadPresentation from "./DownloadPresentation";
 
 const Contato = () => {
